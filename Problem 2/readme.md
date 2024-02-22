@@ -14,6 +14,5 @@ Ex: If the input is:
 the output is:
 
     Myp@$$word!
-
+    
 Hint: Python strings are immutable, but support string concatenation. Store and build the stronger password in the given password variable.
-

@@ -6,9 +6,11 @@ Lab Time:
 """
 
 def inc_5():
-    # Write your code here
-    
-
+    firstNum = int(input())
+    secNum = int(input())
+        
+    while secNum > firstNum:
+        firstNum = firstNum = 5
 
 
 if __name__ == '__main__':
