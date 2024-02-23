@@ -9,6 +9,9 @@ def inc_5():
     firstNum = int(input())
     secNum = int(input())
     nums = ""
+    
+    if firstNum > secNum:
+        print("Second integer can't be less than the first.")
         
     while secNum >= firstNum:
         nums += str(firstNum)
