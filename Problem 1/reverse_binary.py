@@ -9,9 +9,11 @@ Lab Time: Thurs @ 2PM
 
 def reverse_binary(user_input):
     user_num = int(user_input)
+    new_num = ""
     while user_num > 0:
-        print(str(user_num%2))
+        new_num += str(user_num % 2)
         user_num = user_num//2
+    print(new_num)
     
 
 

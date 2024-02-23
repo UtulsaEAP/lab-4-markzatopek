@@ -8,9 +8,15 @@ Lab Time:
 def inc_5():
     firstNum = int(input())
     secNum = int(input())
+    nums = ""
         
-    while secNum > firstNum:
-        firstNum = firstNum = 5
+    while secNum >= firstNum:
+        nums += str(firstNum)
+        firstNum += 5
+        if firstNum < secNum:
+            nums += " "
+        
+        print(nums)
 
 
 if __name__ == '__main__':

@@ -19,6 +19,23 @@ def brute_eq():
     f = int(input())
 
     # YOUR CODE HERE
+    x = -10
+    y = -10
+    not_found = True
+    while x < 11 and not_found:
+        while y < 11 and not_found:
+            eq1 = a * x + b * y
+            eq2 = d * x + e * y
+            if eq1 != c or eq2 != f:
+                y += 1
+            else:
+                print(f"x = {x} , y = {y}")
+                not_found = False
+    
+    if not_found:
+        print("There is no solution")
+                        
+    
     
 if __name__ == "__main__":
     brute_eq()
