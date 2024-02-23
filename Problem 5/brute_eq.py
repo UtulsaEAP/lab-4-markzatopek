@@ -31,6 +31,8 @@ def brute_eq():
             else:
                 print(f"x = {x} , y = {y}")
                 not_found = False
+        x += 1
+        y = -10
     
     if not_found:
         print("There is no solution")
