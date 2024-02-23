@@ -18,4 +18,4 @@ def reverse_binary(user_input):
 
 
 if __name__ == "__main__":
-    reverse_binary(input("Input a number to be converted: "))
+    reverse_binary()

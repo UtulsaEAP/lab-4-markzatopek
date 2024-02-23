@@ -13,7 +13,7 @@ def inc_5():
     while secNum >= firstNum:
         nums += str(firstNum)
         firstNum += 5
-        if firstNum < secNum:
+        if firstNum <= secNum:
             nums += " "
         
         print(nums)
